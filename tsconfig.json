@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": false,
+    "declaration": true,
+    "rootDir": ".",
+    "outDir": ".",
+    "typeRoots": [
+      "node_modules/@types",
+      "types/"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/*.ts",
+    "jest.config.ts"
+  ],
+  "exclude": []
+}

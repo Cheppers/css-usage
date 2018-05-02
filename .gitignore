@@ -1,0 +1,10 @@
+
+/log/
+/node_modules/
+
+/.nvmrc
+/css-usage-*.tgz
+/**/*.d.ts
+!/types/**/*.d.ts
+/**/*.js
+/**/*.js.map

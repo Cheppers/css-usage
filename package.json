@@ -1,0 +1,51 @@
+{
+  "name": "css-usage",
+  "version": "0.0.0",
+  "description": "CSS Usage",
+  "keywords": [
+    "css",
+    "coverage"
+  ],
+  "license": "MIT",
+  "repository": "Sweetchuck/css-coverage",
+  "bugs": {
+    "url": "https://github.com/Sweetchuck/css-coverage/issues"
+  },
+  "homepage": "https://github.com/Sweetchuck/css-coverage",
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.28",
+    "xmlbuilder": "^9.0.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/jest-in-case": "^1.0.0",
+    "@types/node": "^9.6.6",
+    "@types/puppeteer": "^1.2.1",
+    "@types/xmlbuilder": "^0.0.32",
+    "istanbul": "^0.4.5",
+    "jest": "^22.4.2",
+    "jest-in-case": "^1.0.2",
+    "ts-jest": "^22.4.4",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  },
+  "files": [
+    "src/BaseReporter.js",
+    "src/BaseReporter.d.ts",
+    "src/CloverReporter.js",
+    "src/CloverReporter.d.ts",
+    "src/JsonReporter.js",
+    "src/JsonReporter.d.ts",
+    "src/MergeHandler.js",
+    "src/MergeHandler.d.ts",
+    "src/Parser.js",
+    "src/Parser.d.ts",
+    "types/"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:clean": "git clean -f -X -- 'src/' 'jest.config.*'",
+    "lint": "tslint --project .",
+    "test": "jest"
+  }
+}
