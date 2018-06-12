@@ -9,6 +9,12 @@ install:
   - YARN_IGNORE_ENGINES=true yarn
 
 script:
-  - yarn run tsc
-  - yarn run lint
-  - yarn run test
+  - 'yarn run tsc'
+  - 'yarn run lint'
+  - 'yarn run test'
+
+after_success:
+  - 'bash <(curl -s https://codecov.io/bash)'
+
+notifications:
+  email: false
