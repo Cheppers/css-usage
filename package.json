@@ -7,11 +7,11 @@
     "coverage"
   ],
   "license": "MIT",
-  "repository": "Sweetchuck/css-coverage",
+  "repository": "https://github.com/Cheppers/css-usage.git",
   "bugs": {
-    "url": "https://github.com/Sweetchuck/css-coverage/issues"
+    "url": "https://github.com/Cheppers/css-usage/issues"
   },
-  "homepage": "https://github.com/Sweetchuck/css-coverage",
+  "homepage": "https://github.com/Cheppers/css-usage",
   "dependencies": {
     "css-tree": "^1.0.0-alpha.28",
     "xmlbuilder": "^9.0.7"

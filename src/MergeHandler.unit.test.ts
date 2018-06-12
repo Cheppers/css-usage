@@ -71,37 +71,91 @@ test(
             {
                 header: {
                     styleSheetId: '100.1',
-                    sourceURL: '/a.css'
+                    sourceURL: '/a.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
             {
                 header: {
                     styleSheetId: '100.2',
-                    sourceURL: '/b.css'
+                    sourceURL: '/b.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
             {
                 header: {
                     styleSheetId: '101.1',
-                    sourceURL: '/a.css'
+                    sourceURL: '/a.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
             {
                 header: {
                     styleSheetId: '101.2',
-                    sourceURL: '/b.css'
+                    sourceURL: '/b.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
             {
                 header: {
                     styleSheetId: '102.1',
-                    sourceURL: '/a.css'
+                    sourceURL: '/a.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
             {
                 header: {
                     styleSheetId: '102.2',
-                    sourceURL: '/c.css'
+                    sourceURL: '/c.css',
+                    frameId: '',
+                    origin: '',
+                    title: '',
+                    ownerNode: 0,
+                    disabled: false,
+                    isInline: false,
+                    startLine: 0,
+                    startColumn: 0,
+                    length: 42,
                 }
             },
         ];
